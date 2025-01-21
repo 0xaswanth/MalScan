@@ -30,13 +30,15 @@ Clone the repository to your local machine using the following command:
 ```bash
 git clone https://github.com/0xaswanth/MalScan.git
 cd MalScan
+```
 Step 2: Install dependencies
 Use pip to install the required dependencies:
 
-bash
+```bash
 Copy
 Edit
 pip install -r requirements.txt
+```
 Step 3: Set up the VirusTotal API key
 Visit VirusTotal and sign up for an account.
 Go to your account settings and copy your API key.
@@ -44,14 +46,14 @@ Create a .env file in the project root and add your API key like this:
 plaintext
 Copy
 Edit
-VT_API_KEY=your_virustotal_api_key_here
+```VT_API_KEY=your_virustotal_api_key_here```
 Usage
 Run the tool by executing the following command:
 
 bash
 Copy
 Edit
-python malscan.py
+```python malscan.py```
 Choose an action:
 
 You will be prompted to choose whether you want to scan a file or a directory.
@@ -68,7 +70,7 @@ Example
 bash
 Copy
 Edit
-python malscan.py
+```python malscan.py```
 Select to scan a file or directory.
 Results will display the scan results, including any detection counts from VirusTotal and an option to upload files for further analysis.
 Tool Details
